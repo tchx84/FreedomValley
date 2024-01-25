@@ -1,0 +1,137 @@
+{
+    "game": {
+        "default": {
+            "actuators": [],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 1000,
+            "luminance": 0.0,
+            "name": "Bed",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": false,
+            "stamina": 1000,
+            "state": "idling",
+            "strength": 0,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 0,
+            "usable": false,
+            "visible": true,
+            "weight": 0
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 10,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 20,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 20,
+            "path": "assets/images/LPC Dungeon Elements/dungeonex.png",
+            "rotate": 0.0,
+            "rows": 10,
+            "scale_x": 2.0,
+            "scale_y": 3.0,
+            "tiles_x": 2,
+            "tiles_y": 3
+        },
+        "states": [
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 10,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 20,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 20,
+                            "path": "assets/images/LPC Dungeon Elements/dungeonex.png",
+                            "rotate": 0.0,
+                            "rows": 10,
+                            "scale_x": 2.0,
+                            "scale_y": 3.0,
+                            "tiles_x": 2,
+                            "tiles_y": 3
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 10,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 44,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 44,
+                            "path": "assets/images/LPC Dungeon Elements/dungeonex.png",
+                            "rotate": 0.0,
+                            "rows": 10,
+                            "scale_x": 3.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 3,
+                            "tiles_y": 2
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 10,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 24,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 24,
+                            "path": "assets/images/LPC Dungeon Elements/dungeonex.png",
+                            "rotate": 0.0,
+                            "rows": 10,
+                            "scale_x": 3.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 3,
+                            "tiles_y": 2
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 10,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 20,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 20,
+                            "path": "assets/images/LPC Dungeon Elements/dungeonex.png",
+                            "rotate": 0.0,
+                            "rows": 10,
+                            "scale_x": 2.0,
+                            "scale_y": 3.0,
+                            "tiles_x": 2,
+                            "tiles_y": 3
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "idling"
+            }
+        ]
+    },
+    "id": 450,
+    "sound": {
+        "states": []
+    },
+    "version": "0.1.0"
+}

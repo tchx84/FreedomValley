@@ -1,0 +1,137 @@
+{
+    "game": {
+        "default": {
+            "actuators": [],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 8000,
+            "luminance": 0.0,
+            "name": "Rock medium B",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": false,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 0,
+            "usable": false,
+            "visible": true,
+            "weight": 2000
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 32,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 64,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 64,
+            "path": "assets/images/LPC Rocks/rocks.png",
+            "rotate": 0.0,
+            "rows": 32,
+            "scale_x": 2.0,
+            "scale_y": 2.0,
+            "tiles_x": 2,
+            "tiles_y": 2
+        },
+        "states": [
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 32,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 70,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 70,
+                            "path": "assets/images/LPC Rocks/rocks.png",
+                            "rotate": 0.0,
+                            "rows": 32,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 2,
+                            "tiles_y": 2
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 32,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 68,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 68,
+                            "path": "assets/images/LPC Rocks/rocks.png",
+                            "rotate": 0.0,
+                            "rows": 32,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 2,
+                            "tiles_y": 2
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 32,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 66,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 66,
+                            "path": "assets/images/LPC Rocks/rocks.png",
+                            "rotate": 0.0,
+                            "rows": 32,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 2,
+                            "tiles_y": 2
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 32,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 64,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 64,
+                            "path": "assets/images/LPC Rocks/rocks.png",
+                            "rotate": 0.0,
+                            "rows": 32,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 2,
+                            "tiles_y": 2
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "idling"
+            }
+        ]
+    },
+    "id": 84,
+    "sound": {
+        "states": []
+    },
+    "version": "0.1.0"
+}

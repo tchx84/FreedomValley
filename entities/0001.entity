@@ -1,0 +1,881 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "exhausts",
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 400,
+            "luminance": 0.0,
+            "name": "Player",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 0.5,
+            "removable": false,
+            "stamina": 50,
+            "state": "idling",
+            "strength": 400,
+            "takeable": true,
+            "target_name": "",
+            "target_type": 0,
+            "usable": false,
+            "visible": true,
+            "weight": 100
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 13,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 130,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 130,
+            "path": "assets/images/LPC generator/hero.png",
+            "rotate": 0.0,
+            "rows": 21,
+            "scale_x": 2.0,
+            "scale_y": 2.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": [
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.5,
+                            "first_frame": 17,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 19,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.5,
+                            "first_frame": 30,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 32,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.5,
+                            "first_frame": 4,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 6,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.5,
+                            "first_frame": 43,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 45,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "held"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 262,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 263,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 262,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 263,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 262,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 263,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 262,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 263,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "exhausted"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.6,
+                            "first_frame": 169,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 174,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.6,
+                            "first_frame": 182,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 187,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.6,
+                            "first_frame": 156,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 161,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.6,
+                            "first_frame": 195,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 200,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "using"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.5,
+                            "first_frame": 13,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 14,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.5,
+                            "first_frame": 26,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 27,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.5,
+                            "first_frame": 1,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 2,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.5,
+                            "first_frame": 39,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 40,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "idling"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 91,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 98,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 52,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 59,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 78,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 85,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 65,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 72,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    }
+                ],
+                "name": "taking"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 65,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 72,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 78,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 85,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 52,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 59,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 91,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 98,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "dropping"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 265,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 265,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 265,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 265,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 265,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 265,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 265,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 265,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "destroyed"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.5,
+                            "first_frame": 260,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 265,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.5,
+                            "first_frame": 260,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 265,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.5,
+                            "first_frame": 260,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 265,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.5,
+                            "first_frame": 260,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 265,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "destroying"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.9,
+                            "first_frame": 117,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 125,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.9,
+                            "first_frame": 130,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 138,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.9,
+                            "first_frame": 104,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 112,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 13,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.9,
+                            "first_frame": 143,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 151,
+                            "path": "assets/images/LPC generator/hero.png",
+                            "rotate": 0.0,
+                            "rows": 21,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "moving"
+            }
+        ]
+    },
+    "id": 1,
+    "sound": {
+        "states": [
+            {
+                "name": "dropping",
+                "sequence": {
+                    "delay": 1.0,
+                    "paths": [
+                        "assets/sounds/kenney_rpg-audio/Audio/bookOpen.ogg"
+                    ],
+                    "timeout": 0.0
+                }
+            },
+            {
+                "name": "interacting",
+                "sequence": {
+                    "delay": 1.0,
+                    "paths": [
+                        "assets/sounds/kenney_rpg-audio/Audio/bookOpen.ogg"
+                    ],
+                    "timeout": 0.0
+                }
+            },
+            {
+                "name": "moving",
+                "sequence": {
+                    "delay": 0.0,
+                    "paths": [
+                        "assets/sounds/Fantasy Sound Library/Wav/Footsteps/Footstep_Dirt_00.ogg",
+                        "assets/sounds/Fantasy Sound Library/Wav/Footsteps/Footstep_Dirt_02.ogg",
+                        "assets/sounds/Fantasy Sound Library/Wav/Footsteps/Footstep_Dirt_03.ogg",
+                        "assets/sounds/Fantasy Sound Library/Wav/Footsteps/Footstep_Dirt_04.ogg",
+                        "assets/sounds/Fantasy Sound Library/Wav/Footsteps/Footstep_Dirt_05.ogg",
+                        "assets/sounds/Fantasy Sound Library/Wav/Footsteps/Footstep_Dirt_06.ogg",
+                        "assets/sounds/Fantasy Sound Library/Wav/Footsteps/Footstep_Dirt_07.ogg",
+                        "assets/sounds/Fantasy Sound Library/Wav/Footsteps/Footstep_Dirt_08.ogg",
+                        "assets/sounds/Fantasy Sound Library/Wav/Footsteps/Footstep_Dirt_09.ogg"
+                    ],
+                    "timeout": 0.0
+                }
+            },
+            {
+                "name": "taking",
+                "sequence": {
+                    "delay": 1.0,
+                    "paths": [
+                        "assets/sounds/kenney_rpg-audio/Audio/bookOpen.ogg"
+                    ],
+                    "timeout": 0.0
+                }
+            },
+            {
+                "name": "using",
+                "sequence": {
+                    "delay": 0.0,
+                    "paths": [
+                        "assets/sounds/RPG Sound Pack/battle/swing.ogg",
+                        "assets/sounds/RPG Sound Pack/battle/swing2.ogg",
+                        "assets/sounds/RPG Sound Pack/battle/swing3.ogg"
+                    ],
+                    "timeout": 0.0
+                }
+            }
+        ]
+    },
+    "version": "0.1.0"
+}

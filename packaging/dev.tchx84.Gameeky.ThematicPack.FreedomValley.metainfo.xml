@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>dev.tchx84.Gameeky.ThematicPack.FreedomValley</id>
+  <extends>dev.tchx84.Gameeky</extends>
+  <name>Freedom Valley</name>
+  <summary>A classic farming role game</summary>
+  <url type="homepage">https://github.com/tchx84/FreedomValley</url>
+  <project_license>GPL-3.0+</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  <developer_name>Martin Abente Lahaye</developer_name>
+  <update_contact>martin.abente.lahaye@gmail.com</update_contact>
+</component>

@@ -1,0 +1,54 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "transmutes",
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 150,
+            "luminance": 0.0,
+            "name": "Corn C",
+            "radius": 0,
+            "rate": 5,
+            "recovery": 0.0,
+            "removable": true,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 223,
+            "usable": false,
+            "visible": true,
+            "weight": 0
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 9,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 42,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 42,
+            "path": "assets/images/LPC Farming tilesets magic animations and UI elements/tilesets/plants.png",
+            "rotate": 0.0,
+            "rows": 12,
+            "scale_x": 1.0,
+            "scale_y": 2.0,
+            "tiles_x": 1,
+            "tiles_y": 2
+        },
+        "states": []
+    },
+    "id": 222,
+    "sound": {
+        "states": []
+    },
+    "version": "0.1.0"
+}

@@ -1,0 +1,141 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "activates_i",
+                "says_i",
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "Chop... Chop...",
+            "direction": "south",
+            "durability": 1000,
+            "luminance": 0.0,
+            "name": "Wood table",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": true,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": true,
+            "target_name": "",
+            "target_type": 0,
+            "usable": false,
+            "visible": true,
+            "weight": 500
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 16,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 0,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 0,
+            "path": "assets/images/LPC woodshop/woodshop.png",
+            "rotate": 0.0,
+            "rows": 16,
+            "scale_x": 3.0,
+            "scale_y": 2.0,
+            "tiles_x": 3,
+            "tiles_y": 2
+        },
+        "states": [
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 16,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 0,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 0,
+                            "path": "assets/images/LPC woodshop/woodshop.png",
+                            "rotate": 0.0,
+                            "rows": 16,
+                            "scale_x": 3.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 3,
+                            "tiles_y": 2
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 16,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 34,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 34,
+                            "path": "assets/images/LPC woodshop/woodshop.png",
+                            "rotate": 0.0,
+                            "rows": 16,
+                            "scale_x": 2.0,
+                            "scale_y": 3.0,
+                            "tiles_x": 2,
+                            "tiles_y": 3
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 16,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 32,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 32,
+                            "path": "assets/images/LPC woodshop/woodshop.png",
+                            "rotate": 0.0,
+                            "rows": 16,
+                            "scale_x": 2.0,
+                            "scale_y": 3.0,
+                            "tiles_x": 2,
+                            "tiles_y": 3
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 16,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 0,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 0,
+                            "path": "assets/images/LPC woodshop/woodshop.png",
+                            "rotate": 0.0,
+                            "rows": 16,
+                            "scale_x": 3.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 3,
+                            "tiles_y": 2
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "idling"
+            }
+        ]
+    },
+    "id": 131,
+    "sound": {
+        "states": []
+    },
+    "version": "0.1.0"
+}

@@ -1,0 +1,484 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "roams",
+                "aggroes",
+                "follows",
+                "takes",
+                "uses",
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 500,
+            "luminance": 0.0,
+            "name": "Bear",
+            "radius": 2,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": true,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 200,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 320,
+            "usable": false,
+            "visible": true,
+            "weight": 100
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 5,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 15,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 18,
+            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+            "rotate": 0.0,
+            "rows": 12,
+            "scale_x": 2.0,
+            "scale_y": 2.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": [
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "destroyed"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "destroying"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.4,
+                            "first_frame": 30,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 32,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.4,
+                            "first_frame": 35,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 38,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.4,
+                            "first_frame": 20,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 23,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.4,
+                            "first_frame": 25,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 27,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "using"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 5,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 5,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    },
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 0,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 0,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 15,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 15,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 10,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 10,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    }
+                ],
+                "name": "idling"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.6,
+                            "first_frame": 10,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 14,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.6,
+                            "first_frame": 15,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 18,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.6,
+                            "first_frame": 0,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 3,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 5,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.6,
+                            "first_frame": 5,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC bears deer lions and more/individual creature spritesheets/bear, grizzly.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 2.0,
+                            "scale_y": 2.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "moving"
+            }
+        ]
+    },
+    "id": 500,
+    "sound": {
+        "states": []
+    },
+    "version": "0.1.0"
+}

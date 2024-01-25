@@ -1,0 +1,54 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "drops",
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 1000,
+            "luminance": 0.0,
+            "name": "Small tree D",
+            "radius": 0,
+            "rate": 10,
+            "recovery": 0.0,
+            "removable": true,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 132,
+            "usable": false,
+            "visible": true,
+            "weight": 0
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 32,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 352,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 352,
+            "path": "assets/images/LPC Trees/trees-green.png",
+            "rotate": 0.0,
+            "rows": 32,
+            "scale_x": 2.0,
+            "scale_y": 5.0,
+            "tiles_x": 2,
+            "tiles_y": 5
+        },
+        "states": []
+    },
+    "id": 263,
+    "sound": {
+        "states": []
+    },
+    "version": "0.1.0"
+}

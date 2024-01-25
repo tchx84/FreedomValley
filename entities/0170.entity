@@ -1,0 +1,51 @@
+{
+    "game": {
+        "default": {
+            "actuators": [],
+            "density": 0.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 0,
+            "luminance": 0.0,
+            "name": "Dirt inner C",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": false,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 0,
+            "usable": false,
+            "visible": true,
+            "weight": 0
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 3,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 12,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 12,
+            "path": "assets/images/LPC Base Assets/tiles/grassmixed.png",
+            "rotate": 0.0,
+            "rows": 6,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": []
+    },
+    "id": 170,
+    "sound": {
+        "states": []
+    },
+    "version": "0.1.0"
+}

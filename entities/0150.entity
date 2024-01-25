@@ -1,0 +1,64 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "affects"
+            ],
+            "density": 0.5,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 0,
+            "luminance": 1.0,
+            "name": "Campfire",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": false,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 25,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 0,
+            "usable": false,
+            "visible": true,
+            "weight": 0
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 1,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.5,
+            "first_frame": 0,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 3,
+            "path": "assets/images/LPC Dungeon Elements/fire.png",
+            "rotate": 0.0,
+            "rows": 4,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": []
+    },
+    "id": 150,
+    "sound": {
+        "states": [
+            {
+                "name": "idling",
+                "sequence": {
+                    "delay": 0.0,
+                    "paths": [
+                        "assets/sounds/Fireplace Sound loop/fire.ogg"
+                    ],
+                    "timeout": 2.0
+                }
+            }
+        ]
+    },
+    "version": "0.1.0"
+}

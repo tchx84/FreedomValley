@@ -1,0 +1,34 @@
+{
+    "id": "dev.tchx84.Gameeky.ThematicPack.FreedomValley",
+    "runtime": "dev.tchx84.Gameeky",
+    "runtime-version": "master",
+    "sdk": "org.gnome.Sdk//45",
+    "build-extension": true,
+    "separate-locales": false,
+    "appstream-compose": false,
+    "build-options": {
+        "prefix": "/app/extensions/FreedomValley"
+    },
+    "modules": [
+        {
+            "name": "pack",
+            "buildsystem": "simple",
+            "build-commands": [],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "../"
+                }
+            ],
+            "post-install": [
+                "cp gameeky.project ${FLATPAK_DEST}/",
+                "cp -r actuators ${FLATPAK_DEST}/",
+                "cp -r assets ${FLATPAK_DEST}/",
+                "cp -r entities ${FLATPAK_DEST}/",
+                "cp -r scenes ${FLATPAK_DEST}/",
+                "install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo packaging/dev.tchx84.Gameeky.ThematicPack.FreedomValley.metainfo.xml",
+                "appstream-compose --basename=dev.tchx84.Gameeky.ThematicPack.FreedomValley --prefix=${FLATPAK_DEST} --origin=flatpak dev.tchx84.Gameeky.ThematicPack.FreedomValley"
+            ]
+        }
+    ]
+}

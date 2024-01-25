@@ -1,0 +1,570 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "says_i",
+                "deteriorates",
+                "roams",
+                "aggroes",
+                "follows",
+                "interacts",
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "Cuckoo... Cuckoo...",
+            "direction": "south",
+            "durability": 600,
+            "luminance": 0.0,
+            "name": "Chicken",
+            "radius": 1,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": true,
+            "stamina": 100,
+            "state": "idling",
+            "strength": 100,
+            "takeable": true,
+            "target_name": "",
+            "target_type": 224,
+            "usable": false,
+            "visible": true,
+            "weight": 100
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 4,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.8,
+            "first_frame": 8,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 11,
+            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+            "rotate": 0.0,
+            "rows": 4,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": [
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "destroyed"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "destroying"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 12,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 15,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 0,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 3,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 8,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 4,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 7,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    }
+                ],
+                "name": "held"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 8,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 8,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 0,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 0,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 4,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 4,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 12,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 12,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "idling"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 4,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 8,
+                            "path": "assets/images/LPC style farm animals/chicken_eat.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 8,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC style farm animals/chicken_eat.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 0,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 3,
+                            "path": "assets/images/LPC style farm animals/chicken_eat.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 12,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 15,
+                            "path": "assets/images/LPC style farm animals/chicken_eat.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "interacting"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 4,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 7,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 8,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 11,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 0,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 3,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 4,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.8,
+                            "first_frame": 12,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 15,
+                            "path": "assets/images/LPC style farm animals/chicken_walk.png",
+                            "rotate": 0.0,
+                            "rows": 4,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "moving"
+            }
+        ]
+    },
+    "id": 300,
+    "sound": {
+        "states": []
+    },
+    "version": "0.1.0"
+}

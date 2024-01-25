@@ -1,0 +1,54 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "transmutes",
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 500,
+            "luminance": 0.0,
+            "name": "Wood medium stack",
+            "radius": 0,
+            "rate": 10000,
+            "recovery": 0.0,
+            "removable": true,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": true,
+            "target_name": "",
+            "target_type": 122,
+            "usable": false,
+            "visible": true,
+            "weight": 100
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 20,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 25,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 25,
+            "path": "assets/images/LPC Farming tilesets magic animations and UI elements/tilesets/farming_fishing.png",
+            "rotate": 0.0,
+            "rows": 20,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": []
+    },
+    "id": 130,
+    "sound": {
+        "states": []
+    },
+    "version": "0.1.0"
+}
