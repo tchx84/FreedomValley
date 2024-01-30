@@ -4,7 +4,7 @@
             "actuators": [
                 "says_i"
             ],
-            "density": 0.0,
+            "density": 1.0,
             "dialogue": "",
             "direction": "south",
             "durability": 0,
