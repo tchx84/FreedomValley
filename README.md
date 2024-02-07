@@ -5,7 +5,7 @@ A classic farming role game made with and for [Gameeky](https://github.com/tchx8
 ## Hack it
 
 ```
-cd ~/gameeky
+cd ~/Gameeky
 git clone https://github.com/tchx84/FreedomValley.git
 ```
 
