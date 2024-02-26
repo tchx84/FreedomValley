@@ -56164,7 +56164,7 @@
         },
         {
             "overrides": {
-                "dialogue": "Oops! I oversleep... I should get back to work...",
+                "dialogue": "Oops! I overslept... I should get back to work...",
                 "rate": 30
             },
             "position": {
