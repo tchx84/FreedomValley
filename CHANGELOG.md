@@ -1,5 +1,10 @@
 # Changelog
 
+## [unreleased]
+
+* Fixed typo in welcome message.
+* Changed animals durability to keep them alive longer.
+
 ## [0.2.1] - 2024-02-05
 
 * Fixed letter entity density to make it solid.
