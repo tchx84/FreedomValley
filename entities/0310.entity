@@ -13,7 +13,7 @@
             "density": 1.0,
             "dialogue": "Oink... Oink...",
             "direction": "south",
-            "durability": 600,
+            "durability": 1800,
             "luminance": 0.0,
             "name": "Pig",
             "radius": 1,
@@ -566,5 +566,5 @@
     "sound": {
         "states": []
     },
-    "version": "0.1.0"
+    "version": "0.6.0"
 }
