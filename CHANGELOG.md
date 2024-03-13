@@ -1,6 +1,6 @@
 # Changelog
 
-## [unreleased]
+## [0.2.2] - 2024-03-13
 
 * Fixed typo in welcome message.
 * Changed animals durability to keep them alive longer.
